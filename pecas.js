@@ -24,27 +24,19 @@ console.log("O nome da peça não pode ser vazio")
 } else {
     console.log("O nome deve ter mais de 3 caracteres, digite um nome adequado")
 }
-
-// = -> atribuição de valor -> recebe
-// == -> verificação se os valores são iguais -> É igual?
-// === -> verificação se o valor e o tipo de valor são iguais ->
-
-
-
-
-
 switch(nomePeca.length){
-    Case 0:
+    case 0:
     console.log("o nome da peça não pode ser vazio")
+break;
+
+    case 1:
+    case 2:
+    case 3:
+    console.log("o nome deve ter mais de 3 caracteres, digite um nome adequado")
     break;
 
-    Case 1:
-    Case 2:
-    Case 3:
-    console.log("o nome deve ter mais de 3 caracteres, digite um nome adequado")
-    
     default:
         console.log("O nome da peça está adequado")
-        break;
-
+    
+    }
 
