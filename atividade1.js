@@ -10,7 +10,7 @@ console.log("Evento permitido.")
 let idadeDoParticipante = 25
 
 if (idadeDoParticipante >= 18){
-    console.log("Cadastro permitido.")
+    console.log("Participação Perrmitida")
 }else { 
     console.log("Cadastro não permiditido, Evento permitido somente para maiores de 18 anos")
 }
@@ -22,7 +22,7 @@ console.log(quantidadeDeParticipantes);
 
 if (listaDeParticipantes.length < 100){
     //É possível cadastrar mais participantes
-    console.log("Cadastro permitido, Digite seus Dados")
+    console.log("Vaga Disponível. Cadastro permitido, Digite seus Dados")
 }else{ 
     console.log("Cadastro não permitido, Vagas Esgotadas")
 }
